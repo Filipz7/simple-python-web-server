@@ -38,7 +38,7 @@ def processa_solicitacao(socket_cliente, cliente_addr):
         arquivo_binario = True
     
 
-    # abrir o arquivo e 
+    # abrir o arquivo exe
     try:
         if arquivo_executavel:
             processo = subprocess.run(['python', arquivo_solicitado], stdout=subprocess.PIPE, 
